@@ -472,9 +472,9 @@ def run_pipeline(data_dir: str, force_demo: bool, samples_per_class: int) -> Non
     print("feature_scaler.pkl")
     print("run_metadata.pkl")
 
-    print("\nDefense note")
+    print("\nExecution note")
     print("-" * 50)
-    print("For tomorrow's demo, this run proves end-to-end pipeline execution even without dataset images.")
+    print("This run verifies end-to-end pipeline execution, including synthetic evaluation when image data is unavailable.")
 
 
 def parse_args() -> argparse.Namespace:

@@ -1,6 +1,6 @@
-# Mango Leaf Disease Detection (Defense Demo Package)
+# Mango Leaf Disease Detection (Research Project Package)
 
-This workspace is prepared for second defense demo on April 6, 2026.
+This workspace contains implementation and documentation for the mango leaf disease detection research project.
 
 ## What is included
 
@@ -8,7 +8,7 @@ This workspace is prepared for second defense demo on April 6, 2026.
   - VGG16 + Logistic Regression + PSO design
   - Works in demo mode without dataset (synthetic hardcoded feature data)
   - Switches to real-image mode automatically if dataset + dependencies are present
-- `requirements.txt`: Minimal dependencies for demo mode
+- `requirements.txt`: Minimal dependencies for synthetic evaluation mode
 - `defense_materials.md`: 12-slide content, contribution split, checklist, and Q&A
 
 ## Quick start (Windows, VS Code terminal)
@@ -26,7 +26,7 @@ This workspace is prepared for second defense demo on April 6, 2026.
    pip install -r requirements.txt
    ```
 
-3. Run demo mode directly:
+3. Run synthetic evaluation mode directly:
 
    ```powershell
    python mango_disease_detection.py --demo

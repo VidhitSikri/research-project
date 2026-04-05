@@ -1,4 +1,4 @@
-# Second Defense Package (April 6, 2026)
+# Research Project Presentation Package
 
 ## 1. Title Slide
 
@@ -188,7 +188,7 @@ Contributions:
 - Performance: 98.75% benchmark-level accuracy.
 - Real impact: Early detection can reduce crop losses.
 
-## Likely Viva Questions and Answers
+## Likely Examiner Questions and Answers
 
 Q: Why PSO over grid search?
 A: Grid search is computationally expensive in large spaces. PSO converges with fewer evaluations and gives strong parameter combinations quickly.
@@ -196,7 +196,7 @@ A: Grid search is computationally expensive in large spaces. PSO converges with 
 Q: Why Logistic Regression after deep features?
 A: VGG16 produces highly informative embeddings; Logistic Regression is lightweight, interpretable, and efficient for deployment.
 
-## Final Checklist for April 6, 2026
+## Submission and Presentation Checklist
 
 - [ ] Print 3 hard copies of research paper
 - [ ] Keep soft copy in laptop and USB
